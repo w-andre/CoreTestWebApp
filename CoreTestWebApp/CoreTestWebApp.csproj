@@ -10,6 +10,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="Microsoft.OData.Core" Version="7.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.OData">
+      <HintPath>..\..\WebApi\bin\Debug\netstandard2.0\Microsoft.AspNetCore.OData.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
